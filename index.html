@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Totally Trivial Trivia</title>
+  <!--Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+
+  <link rel="reset"  href="assets/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+
+<body>
+
+<div class = "wrapper">
+  <!-- Main heading of page and Game Name -->
+      <header>
+          <h1>Totally Trivial Trivia</h1>
+      </header>
+  <!--Counter that will only display on start click-->
+      <div id = "counter">
+      </div>
+  <!--The Game's instructions -->
+      <div class = "instructions">
+          <h2>Instructions</h2>
+          <p>Press the start button to begin the game.</P>
+          <p>Answer the listed questions in the time provided.</p>
+          <p>If you finish before your time has run out, click the done button to
+          see your score!</p>
+      </div>
+
+  <!--Where the questions and answers will appear when click on "start" -->
+    <div id = "question"></div>
+
+  <!--The start and done button -->
+    <div id = "buttons">
+        <button id ="start">START</button>
+        <button id ="done">DONE</button>
+    </div>
+
+  <!--Generating the tally of amount correct and incorrect-->
+    <div class = "tally">
+    <div id = "numbercorrect"></div>
+    <div id = "numberincorrect"></div>
+    <div>
+
+</div>
+
+<!--Link to the Javascript/Jquery file -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript" src= "assets/app.js"></script>
+
+
+</body>
+</html>

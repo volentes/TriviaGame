@@ -1,0 +1,114 @@
+
+
+body {
+  background-image: url("../assets/background.jpg");
+  background-color: #d3d3d3;
+}
+
+h1 {
+
+}
+
+header {
+  font-family: 'Rock Salt', cursive;
+  font-size: 30px;
+  color: #800000;
+  text-align: center;
+  background-image: url("../assets/musichead.jpg");
+  background-position:  right top;
+  padding-bottom: 50px;
+
+}
+/* #191970; */
+
+h2 {
+  font-family: 'Rock Salt', cursive;
+  color: #111111;
+  text-align: center;
+  font-size: 40px;
+  background-color:
+}
+
+p {
+  font-family: 'Covered By Your Grace', cursive;
+  color: #111111;
+  text-align: center;
+  font-size: 30px;
+}
+
+/*Buttons div centering */
+#buttons{
+  text-align: center;
+}
+
+/*Start button styling*/
+#start {
+  font-family: 'Bangers', cursive;
+   background: rgba(0,0,0,0);
+   border: solid 5px #800000;
+   font-size: 30px;
+   padding: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   border-radius: 12px;
+   background-color: 	#d3d3d3;
+   margin-bottom: 50px;
+}
+
+/*Done button styling*/
+#done {
+  font-family: 'Bangers', cursive;
+  background: rgba(0,0,0,0);
+  border: solid 5px #800000;
+  font-size: 30px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 12px;
+  background-color: 	#d3d3d3;
+  margin-bottom: 50px; 
+}
+
+#question {
+  font-family: 'Neucha', cursive;
+  color: #111111;
+  text-align: center;
+  font-size: 30px;
+  }
+
+#counter{
+  font-family: 'Covered By Your Grace', cursive;
+  color: #800000;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  background-color: #d3d3d3;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+#numbercorrect {
+  font-family: 'Covered By Your Grace', cursive;
+  color: #111111;
+  text-align: center;
+  font-size: 30px;
+}
+
+#numberincorrect {
+  font-family: 'Covered By Your Grace', cursive;
+  color: #111111;
+  text-align: center;
+  font-size: 30px;
+}
+.tally {
+  text-align: center;
+  padding: 30px;
+  margin-top: 150px;
+  margin-left: 475px;
+  margin-right: 475px;
+  background-color: #d3d3d3;
+  border: solid 5px #800000;
+  border-radius: 12px;
+
+}
